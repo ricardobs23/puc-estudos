@@ -10,7 +10,7 @@ class Employee:
     def proporcional(self,days):
         return self.salary / 30 * days
 
-joao = Employee('João', "TI", 3000)
-print(joao.name)
-print(joao.setor)
-print(joao.proporcional(1))
+empregado = Employee('João', "TI", 7500)
+print(empregado.name)
+print(empregado.setor)
+print(empregado.proporcional(1))
