@@ -1,4 +1,20 @@
 import math
+
+"""
+    >>> p = Point(3, 4)
+    >>> p.x
+    3
+    
+    >>> p = Point(3.0, 4.0)
+    >>> p.y
+    4.0
+
+    >>> p1 = Point(3, 0)
+    >>> p2 = Point(0, 4)
+    >>> p1.distance(p2)
+    5.0
+"""
+
 class Point:
     def __init__(self, x, y):
         self.x = x
